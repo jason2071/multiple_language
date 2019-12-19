@@ -57,6 +57,14 @@ class MainActivity : AppCompatActivity() {
                 Paper.book().write("language", "th")
                 updateView(Paper.book().read<String>("language"))
             }
+            R.id.language_jp -> {
+                Paper.book().write("language", "ja")
+                updateView(Paper.book().read<String>("language"))
+            }
+            R.id.language_zh -> {
+                Paper.book().write("language", "zh")
+                updateView(Paper.book().read<String>("language"))
+            }
         }
 
         return true

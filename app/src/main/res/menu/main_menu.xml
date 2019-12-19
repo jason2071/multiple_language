@@ -7,7 +7,15 @@
         app:showAsAction="never" />
 
     <item android:id="@+id/language_th"
-        android:title="Thailand"
+        android:title="ไทย"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/language_jp"
+        android:title="日本人"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/language_zh"
+        android:title="中文"
         app:showAsAction="never" />
 
 </menu>
